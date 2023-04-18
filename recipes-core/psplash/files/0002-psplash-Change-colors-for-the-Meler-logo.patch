@@ -1,0 +1,25 @@
+From 7f6f4a9b78dbebe2aa67bda880b631451107289f Mon Sep 17 00:00:00 2001
+From: javigm2983 <javigm2983@gmail.com>
+Date: Mon, 3 Apr 2023 08:02:08 +0000
+Subject: [PATCH] psplash-Change-colors-for-the-Meler-logo
+
+---
+ psplash-colors.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/psplash-colors.h b/psplash-colors.h
+index fe8a8da..28ace97 100644
+--- a/psplash-colors.h
++++ b/psplash-colors.h
+@@ -18,7 +18,7 @@
+ #define PSPLASH_TEXT_COLOR 0x00,0x56,0xa5
+ 
+ /* This is the color of the progress bar indicator */
+-#define PSPLASH_BAR_COLOR 0x00,0x56,0xa5
++#define PSPLASH_BAR_COLOR 0x2c,0xcc,0xd2
+ 
+ /* This is the color of the progress bar background */
+ #define PSPLASH_BAR_BACKGROUND_COLOR 0xff,0xff,0xff
+-- 
+2.25.1
+
